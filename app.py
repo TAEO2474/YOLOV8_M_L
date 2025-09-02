@@ -12,7 +12,7 @@ import gdown
 # =========================
 # 1️⃣ Google Drive에서 모델 다운로드
 # =========================
-FILE_ID = "1VAufInjquVIf_efdvQnBXYRFKLyCjBae"  # 공유 링크 파일 ID
+FILE_ID = "1CW3aLADi1X1ve5qkM_whe8V1MDnl0Dai"  # 공유 링크 파일 ID
 MODEL_PATH = "yolo_best.pt"
 
 if not os.path.exists(MODEL_PATH):
@@ -68,4 +68,5 @@ if uploaded_file is not None:
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
 
     st.subheader("탐지 결과")
+
     st.image(img_np, caption="Detection Result", use_column_width=True)
