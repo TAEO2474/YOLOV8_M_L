@@ -1,0 +1,14 @@
+# requirements.txt
+tensorflow
+ultralytics
+opencv-python
+numpy
+keras
+scikit-learn
+pandas
+matplotlib
+Pillow
+gdown
+
+
+

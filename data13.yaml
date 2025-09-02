@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/AI수업/hawk_eye_pjt/yolo/dataset/images/train
+val:   /content/drive/MyDrive/AI수업/hawk_eye_pjt/yolo/dataset/images/val
+
+nc: 20   
+names: ['Axe', 'Bullet','Gun','Hammer','HDD','Hddext','Laptop','SmartPhone','Saw','Spanner','SSD','TabletPC','USB','Awl','Knife','Scissors','GunParts','SupplymentaryBattery','Lighter','Screwdriver']   
