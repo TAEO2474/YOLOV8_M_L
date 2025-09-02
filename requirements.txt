@@ -1,15 +1,15 @@
 # requirements.txt
-tensorflow
-ultralytics
-opencv-python
+streamlit>=1.36
+ultralytics>=8.2
+opencv-python-headless<5
+torch>=2.2
+torchvision>=0.17
 numpy
-keras
-scikit-learn
 pandas
+scikit-learn
 matplotlib
 Pillow
 gdown
-
 
 
 
